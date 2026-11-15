@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 270" role="img" aria-label="손가락 총">
+<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
+<path d="M108 170 L105 246" stroke-width="18"/>
+<path d="M128 170 L131 246" stroke-width="18"/>
+<path d="M118 112 L118 166" stroke-width="42"/>
+<circle cx="118" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M192 170 L189 246" stroke-width="18"/>
+<path d="M212 170 L215 246" stroke-width="18"/>
+<path d="M202 112 L202 166" stroke-width="42"/>
+<circle cx="202" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M101 110 L71.5 89.3 L44.1 70.1" stroke="#ffffff" stroke-width="21"/>
+<path d="M101 110 L71.5 89.3 L44.1 70.1" stroke-width="14"/>
+<path d="M135 110 L161.9 134 L140 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M135 110 L161.9 134 L140 160" stroke-width="14"/>
+<path d="M185 110 L158.1 134 L180 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M185 110 L158.1 134 L180 160" stroke-width="14"/>
+<path d="M219 110 L248.5 89.3 L275.9 70.1" stroke="#ffffff" stroke-width="21"/>
+<path d="M219 110 L248.5 89.3 L275.9 70.1" stroke-width="14"/>
+<path d="M30.6 73.7 L19 76.8" stroke="#ff5a5f" stroke-width="5"/><path d="M31 65.3 L19.7 61.2" stroke="#ff5a5f" stroke-width="5"/><path d="M36.1 58.6 L29.2 48.8" stroke="#ff5a5f" stroke-width="5"/>
+<path d="M283.9 58.6 L290.8 48.8" stroke="#ff5a5f" stroke-width="5"/><path d="M289 65.3 L300.3 61.2" stroke="#ff5a5f" stroke-width="5"/><path d="M289.4 73.7 L301 76.8" stroke="#ff5a5f" stroke-width="5"/>
+</g>
+</svg>

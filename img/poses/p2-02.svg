@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 270" role="img" aria-label="머리 위 큰 하트">
+<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
+<path d="M100 170 L97 246" stroke-width="18"/>
+<path d="M120 170 L123 246" stroke-width="18"/>
+<path d="M110 112 L110 166" stroke-width="42"/>
+<circle cx="110" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M200 170 L197 246" stroke-width="18"/>
+<path d="M220 170 L223 246" stroke-width="18"/>
+<path d="M210 112 L210 166" stroke-width="42"/>
+<circle cx="210" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M93 110 L66.1 134 L88 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M93 110 L66.1 134 L88 160" stroke-width="14"/>
+<path d="M127 110 L140.9 76.8 L153.9 45.9" stroke="#ffffff" stroke-width="21"/>
+<path d="M127 110 L140.9 76.8 L153.9 45.9" stroke-width="14"/>
+<path d="M193 110 L179.1 76.8 L166.1 45.9" stroke="#ffffff" stroke-width="21"/>
+<path d="M193 110 L179.1 76.8 L166.1 45.9" stroke-width="14"/>
+<path d="M227 110 L253.9 134 L232 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M227 110 L253.9 134 L232 160" stroke-width="14"/>
+<path transform="translate(160 18) scale(1)" fill="#ff5a5f" stroke="none" d="M0 14 C-4 10 -20 0 -20 -9 C-20 -18 -7 -21 0 -12 C7 -21 20 -18 20 -9 C20 0 4 10 0 14Z"/>
+</g>
+</svg>

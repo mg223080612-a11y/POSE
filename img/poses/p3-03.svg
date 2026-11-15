@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" role="img" aria-label="삼총사 만세">
+<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
+<path d="M85 170 L82 246" stroke-width="18"/>
+<path d="M105 170 L108 246" stroke-width="18"/>
+<path d="M95 112 L95 166" stroke-width="42"/>
+<circle cx="95" cy="68" r="23" fill="#47433e" stroke="none"/>
+<ellipse cx="200" cy="252" rx="34" ry="5" fill="#d9d4cc"/>
+<path d="M190 146 L176 180 L186 206" stroke-width="18"/>
+<path d="M210 146 L224 180 L214 206" stroke-width="18"/>
+<path d="M200 88 L200 142" stroke-width="42"/>
+<circle cx="200" cy="44" r="23" fill="#47433e" stroke="none"/>
+<path d="M295 170 L292 246" stroke-width="18"/>
+<path d="M315 170 L318 246" stroke-width="18"/>
+<path d="M305 112 L305 166" stroke-width="42"/>
+<circle cx="305" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M78 110 L56.4 81.2 L36.3 54.4" stroke="#ffffff" stroke-width="21"/>
+<path d="M78 110 L56.4 81.2 L36.3 54.4" stroke-width="14"/>
+<path d="M112 110 L133.6 81.2 L153.7 54.4" stroke="#ffffff" stroke-width="21"/>
+<path d="M112 110 L133.6 81.2 L153.7 54.4" stroke-width="14"/>
+<path d="M183 86 L161.4 57.2 L141.3 30.4" stroke="#ffffff" stroke-width="21"/>
+<path d="M183 86 L161.4 57.2 L141.3 30.4" stroke-width="14"/>
+<path d="M217 86 L238.6 57.2 L258.7 30.4" stroke="#ffffff" stroke-width="21"/>
+<path d="M217 86 L238.6 57.2 L258.7 30.4" stroke-width="14"/>
+<path d="M288 110 L266.4 81.2 L246.3 54.4" stroke="#ffffff" stroke-width="21"/>
+<path d="M288 110 L266.4 81.2 L246.3 54.4" stroke-width="14"/>
+<path d="M322 110 L343.6 81.2 L363.7 54.4" stroke="#ffffff" stroke-width="21"/>
+<path d="M322 110 L343.6 81.2 L363.7 54.4" stroke-width="14"/>
+
+</g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 270" role="img" aria-label="가운데 하트 주목">
+<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
+<path d="M78.4 169.4 L67.5 244.7" stroke-width="18"/>
+<path d="M98.3 171.5 L93.3 247.4" stroke-width="18"/>
+<path d="M94.4 112.8 L88.8 166.5" stroke-width="42"/>
+<circle cx="99" cy="69" r="23" fill="#47433e" stroke="none"/>
+<path d="M172 170 L169 246" stroke-width="18"/>
+<path d="M192 170 L195 246" stroke-width="18"/>
+<path d="M182 112 L182 166" stroke-width="42"/>
+<circle cx="182" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M278 170 L275 246" stroke-width="18"/>
+<path d="M298 170 L301 246" stroke-width="18"/>
+<path d="M288 112 L288 166" stroke-width="42"/>
+<circle cx="288" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M371.7 171.5 L376.7 247.4" stroke-width="18"/>
+<path d="M391.6 169.4 L402.5 244.7" stroke-width="18"/>
+<path d="M375.6 112.8 L381.2 166.5" stroke-width="42"/>
+<circle cx="371" cy="69" r="23" fill="#47433e" stroke="none"/>
+<path d="M77.7 109 L59.7 140.2 L63.9 173.9" stroke="#ffffff" stroke-width="21"/>
+<path d="M77.7 109 L59.7 140.2 L63.9 173.9" stroke-width="14"/>
+<path d="M111.5 112.5 L147.5 110.3 L180.9 108.2" stroke="#ffffff" stroke-width="21"/>
+<path d="M111.5 112.5 L147.5 110.3 L180.9 108.2" stroke-width="14"/>
+<path d="M165 110 L150.3 142.9 L158 176" stroke="#ffffff" stroke-width="21"/>
+<path d="M165 110 L150.3 142.9 L158 176" stroke-width="14"/>
+<path d="M199 110 L204.5 145.6 L229 122" stroke="#ffffff" stroke-width="21"/>
+<path d="M199 110 L204.5 145.6 L229 122" stroke-width="14"/>
+<path d="M271 110 L265.5 145.6 L241 122" stroke="#ffffff" stroke-width="21"/>
+<path d="M271 110 L265.5 145.6 L241 122" stroke-width="14"/>
+<path d="M305 110 L319.7 142.9 L312 176" stroke="#ffffff" stroke-width="21"/>
+<path d="M305 110 L319.7 142.9 L312 176" stroke-width="14"/>
+<path d="M358.5 112.5 L322.5 110.3 L289.1 108.2" stroke="#ffffff" stroke-width="21"/>
+<path d="M358.5 112.5 L322.5 110.3 L289.1 108.2" stroke-width="14"/>
+<path d="M392.3 109 L410.3 140.2 L406.1 173.9" stroke="#ffffff" stroke-width="21"/>
+<path d="M392.3 109 L410.3 140.2 L406.1 173.9" stroke-width="14"/>
+<path transform="translate(235 108) scale(1.1)" fill="#ff5a5f" stroke="none" d="M0 14 C-4 10 -20 0 -20 -9 C-20 -18 -7 -21 0 -12 C7 -21 20 -18 20 -9 C20 0 4 10 0 14Z"/>
+</g>
+</svg>

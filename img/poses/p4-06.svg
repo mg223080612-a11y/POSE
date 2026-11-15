@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 270" role="img" aria-label="주먹 파이팅">
+<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
+<path d="M75 170 L72 246" stroke-width="18"/>
+<path d="M95 170 L98 246" stroke-width="18"/>
+<path d="M85 112 L85 166" stroke-width="42"/>
+<circle cx="85" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M175 170 L172 246" stroke-width="18"/>
+<path d="M195 170 L198 246" stroke-width="18"/>
+<path d="M185 112 L185 166" stroke-width="42"/>
+<circle cx="185" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M275 170 L272 246" stroke-width="18"/>
+<path d="M295 170 L298 246" stroke-width="18"/>
+<path d="M285 112 L285 166" stroke-width="42"/>
+<circle cx="285" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M375 170 L372 246" stroke-width="18"/>
+<path d="M395 170 L398 246" stroke-width="18"/>
+<path d="M385 112 L385 166" stroke-width="42"/>
+<circle cx="385" cy="68" r="23" fill="#47433e" stroke="none"/>
+<path d="M68 110 L41.1 134 L63 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M68 110 L41.1 134 L63 160" stroke-width="14"/>
+<path d="M102 110 L121.7 79.9 L119 46" stroke="#ffffff" stroke-width="21"/>
+<path d="M102 110 L121.7 79.9 L119 46" stroke-width="14"/>
+<path d="M168 110 L141.1 134 L163 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M168 110 L141.1 134 L163 160" stroke-width="14"/>
+<path d="M202 110 L221.7 79.9 L219 46" stroke="#ffffff" stroke-width="21"/>
+<path d="M202 110 L221.7 79.9 L219 46" stroke-width="14"/>
+<path d="M268 110 L241.1 134 L263 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M268 110 L241.1 134 L263 160" stroke-width="14"/>
+<path d="M302 110 L321.7 79.9 L319 46" stroke="#ffffff" stroke-width="21"/>
+<path d="M302 110 L321.7 79.9 L319 46" stroke-width="14"/>
+<path d="M368 110 L341.1 134 L363 160" stroke="#ffffff" stroke-width="21"/>
+<path d="M368 110 L341.1 134 L363 160" stroke-width="14"/>
+<path d="M402 110 L421.7 79.9 L419 46" stroke="#ffffff" stroke-width="21"/>
+<path d="M402 110 L421.7 79.9 L419 46" stroke-width="14"/>
+<path d="M111 34.5 L104.1 24.7" stroke="#ff5a5f" stroke-width="5"/><path d="M119 32 L119 20" stroke="#ff5a5f" stroke-width="5"/><path d="M127 34.5 L133.9 24.7" stroke="#ff5a5f" stroke-width="5"/>
+<path d="M211 34.5 L204.1 24.7" stroke="#ff5a5f" stroke-width="5"/><path d="M219 32 L219 20" stroke="#ff5a5f" stroke-width="5"/><path d="M227 34.5 L233.9 24.7" stroke="#ff5a5f" stroke-width="5"/>
+<path d="M311 34.5 L304.1 24.7" stroke="#ff5a5f" stroke-width="5"/><path d="M319 32 L319 20" stroke="#ff5a5f" stroke-width="5"/><path d="M327 34.5 L333.9 24.7" stroke="#ff5a5f" stroke-width="5"/>
+<path d="M411 34.5 L404.1 24.7" stroke="#ff5a5f" stroke-width="5"/><path d="M419 32 L419 20" stroke="#ff5a5f" stroke-width="5"/><path d="M427 34.5 L433.9 24.7" stroke="#ff5a5f" stroke-width="5"/>
+</g>
+</svg>
