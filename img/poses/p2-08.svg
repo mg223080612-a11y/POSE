@@ -1,21 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 270" role="img" aria-label="슈퍼히어로">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 272" role="img" aria-label="볼 꼬집기">
 <g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
-<path d="M94 170 L75 244" stroke-width="18"/>
-<path d="M116 170 L135 244" stroke-width="18"/>
-<path d="M105 112 L105 166" stroke-width="42"/>
-<circle cx="105" cy="68" r="23" fill="#47433e" stroke="none"/>
-<path d="M204 170 L185 244" stroke-width="18"/>
-<path d="M226 170 L245 244" stroke-width="18"/>
-<path d="M215 112 L215 166" stroke-width="42"/>
-<circle cx="215" cy="68" r="23" fill="#47433e" stroke="none"/>
-<path d="M88 110 L61.1 134 L83 160" stroke="#ffffff" stroke-width="21"/>
-<path d="M88 110 L61.1 134 L83 160" stroke-width="14"/>
-<path d="M122 110 L148.9 134 L127 160" stroke="#ffffff" stroke-width="21"/>
-<path d="M122 110 L148.9 134 L127 160" stroke-width="14"/>
-<path d="M198 110 L171.1 134 L193 160" stroke="#ffffff" stroke-width="21"/>
-<path d="M198 110 L171.1 134 L193 160" stroke-width="14"/>
-<path d="M232 110 L258.9 134 L237 160" stroke="#ffffff" stroke-width="21"/>
-<path d="M232 110 L258.9 134 L237 160" stroke-width="14"/>
+<path transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
+<rect transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
+<g transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(6 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><path d="M8 1 Q14 -7 20 1" stroke="#ffffff" stroke-width="4" fill="none"/><path d="M-11 14 Q0 20 11 14" stroke="#ffffff" stroke-width="4" fill="none"/><ellipse cx="3" cy="21" rx="5" ry="6" fill="#ff5a5f"/></g>
+<path d="M150 182 L201.9 167.1 L174.4 120.6" stroke="#ffffff" stroke-width="34"/>
+<ellipse cx="174.4" cy="120.6" rx="16" ry="22" transform="rotate(-100 174.4 120.6)" fill="#ffffff" stroke="none"/>
+<path d="M150 182 L201.9 167.1 L174.4 120.6" stroke-width="26"/>
+<ellipse cx="174.4" cy="120.6" rx="12" ry="18" transform="rotate(-100 174.4 120.6)" fill="#47433e" stroke="none"/>
+<path transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
+<rect transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
+<g transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(-10 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><circle cx="14" cy="-2" r="4.2" fill="#ffffff"/><ellipse cx="0" cy="20" rx="7" ry="9" fill="#ffffff"/></g>
 
+<path d="M251 71.1 L256 60.2" stroke="#ff5a5f" stroke-width="5"/><path d="M257.2 76.8 L267.6 70.8" stroke="#ff5a5f" stroke-width="5"/><path d="M259 85 L271 86" stroke="#ff5a5f" stroke-width="5"/>
 </g>
 </svg>

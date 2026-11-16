@@ -1,22 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 270" role="img" aria-label="손가락 총">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 272" role="img" aria-label="윙크 브이">
 <g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
-<path d="M108 170 L105 246" stroke-width="18"/>
-<path d="M128 170 L131 246" stroke-width="18"/>
-<path d="M118 112 L118 166" stroke-width="42"/>
-<circle cx="118" cy="68" r="23" fill="#47433e" stroke="none"/>
-<path d="M192 170 L189 246" stroke-width="18"/>
-<path d="M212 170 L215 246" stroke-width="18"/>
-<path d="M202 112 L202 166" stroke-width="42"/>
-<circle cx="202" cy="68" r="23" fill="#47433e" stroke="none"/>
-<path d="M101 110 L71.5 89.3 L44.1 70.1" stroke="#ffffff" stroke-width="21"/>
-<path d="M101 110 L71.5 89.3 L44.1 70.1" stroke-width="14"/>
-<path d="M135 110 L161.9 134 L140 160" stroke="#ffffff" stroke-width="21"/>
-<path d="M135 110 L161.9 134 L140 160" stroke-width="14"/>
-<path d="M185 110 L158.1 134 L180 160" stroke="#ffffff" stroke-width="21"/>
-<path d="M185 110 L158.1 134 L180 160" stroke-width="14"/>
-<path d="M219 110 L248.5 89.3 L275.9 70.1" stroke="#ffffff" stroke-width="21"/>
-<path d="M219 110 L248.5 89.3 L275.9 70.1" stroke-width="14"/>
-<path d="M30.6 73.7 L19 76.8" stroke="#ff5a5f" stroke-width="5"/><path d="M31 65.3 L19.7 61.2" stroke="#ff5a5f" stroke-width="5"/><path d="M36.1 58.6 L29.2 48.8" stroke="#ff5a5f" stroke-width="5"/>
-<path d="M283.9 58.6 L290.8 48.8" stroke="#ff5a5f" stroke-width="5"/><path d="M289 65.3 L300.3 61.2" stroke="#ff5a5f" stroke-width="5"/><path d="M289.4 73.7 L301 76.8" stroke="#ff5a5f" stroke-width="5"/>
+<path transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
+<rect transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
+<g transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(8 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><path d="M8 1 Q14 -7 20 1" stroke="#ffffff" stroke-width="4" fill="none"/><path d="M-10 15 Q0 24 10 15" stroke="#ffffff" stroke-width="4" fill="none"/><circle cx="-25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/><circle cx="25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/></g>
+<path d="M59 182 L29.1 137 L57.1 90.9" stroke="#ffffff" stroke-width="34"/>
+<path d="M57.1 90.9 L43.3 59.8" stroke="#ffffff" stroke-width="14"/>
+<path d="M57.1 90.9 L59.5 57" stroke="#ffffff" stroke-width="14"/>
+<circle cx="57.1" cy="90.9" r="20" fill="#ffffff" stroke="none"/>
+<path d="M59 182 L29.1 137 L57.1 90.9" stroke-width="26"/>
+<path d="M57.1 90.9 L43.3 59.8" stroke-width="8"/>
+<path d="M57.1 90.9 L59.5 57" stroke-width="8"/>
+<circle cx="57.1" cy="90.9" r="16" fill="#47433e" stroke="none"/>
+<path transform="translate(215 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
+<rect transform="translate(215 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
+<g transform="translate(215 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(-8 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><path d="M8 1 Q14 -7 20 1" stroke="#ffffff" stroke-width="4" fill="none"/><path d="M-10 15 Q0 24 10 15" stroke="#ffffff" stroke-width="4" fill="none"/><circle cx="-25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/><circle cx="25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/></g>
+<path d="M261 182 L290.9 137 L262.9 90.9" stroke="#ffffff" stroke-width="34"/>
+<path d="M262.9 90.9 L260.5 57" stroke="#ffffff" stroke-width="14"/>
+<path d="M262.9 90.9 L276.7 59.8" stroke="#ffffff" stroke-width="14"/>
+<circle cx="262.9" cy="90.9" r="20" fill="#ffffff" stroke="none"/>
+<path d="M261 182 L290.9 137 L262.9 90.9" stroke-width="26"/>
+<path d="M262.9 90.9 L260.5 57" stroke-width="8"/>
+<path d="M262.9 90.9 L276.7 59.8" stroke-width="8"/>
+<circle cx="262.9" cy="90.9" r="16" fill="#47433e" stroke="none"/>
+
+
 </g>
 </svg>
