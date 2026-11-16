@@ -7,24 +7,33 @@ let stream = null;
 
 /** 전면 카메라를 켠다. 실패하면 false (카메라 없이 테스트 모드로 진행). */
 export async function startCamera(video) {
-  if (stream) {
-    video.srcObject = stream;
+  // 화면이 꺼졌다 켜지면 카메라 트랙이 끝나 있을 수 있어 다시 켠다
+  if (stream && stream.getVideoTracks().some((t) => t.readyState === 'live')) {
+    if (video.srcObject !== stream) video.srcObject = stream;
     await video.play().catch(() => {});
     return true;
   }
+  stream = null;
   if (!navigator.mediaDevices?.getUserMedia) return false;
-  try {
-    stream = await navigator.mediaDevices.getUserMedia({
-      video: { facingMode: 'user', width: { ideal: 1920 }, height: { ideal: 1080 } },
-      audio: false,
-    });
-    video.srcObject = stream;
-    await video.play().catch(() => {});
-    return true;
-  } catch (err) {
-    console.warn('카메라를 켤 수 없어요:', err);
-    return false;
+  const tries = [
+    { video: { facingMode: 'user', width: { ideal: 1920 }, height: { ideal: 1080 } }, audio: false },
+    { video: { facingMode: 'user' }, audio: false },
+    { video: true, audio: false },
+  ];
+  for (const c of tries) {
+    try {
+      stream = await navigator.mediaDevices.getUserMedia(c);
+      break;
+    } catch (err) {
+      console.warn('카메라를 켤 수 없어요:', err);
+      // 권한을 거부했으면 다른 조건으로 다시 물어봐도 소용없다
+      if (err?.name === 'NotAllowedError' || err?.name === 'SecurityError') return false;
+    }
   }
+  if (!stream) return false;
+  video.srcObject = stream;
+  await video.play().catch(() => {});
+  return true;
 }
 
 export function hasCamera() {
