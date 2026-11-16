@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 272" role="img" aria-label="어깨에 기대기">
-<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
-<path transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
-<rect transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
-<g transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(0 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><path d="M-21 -2 L-8 -2 M8 -2 L21 -2" stroke="#ffffff" stroke-width="4" fill="none"/><path d="M-7 18 L7 18" stroke="#ffffff" stroke-width="4" fill="none"/></g>
-<path transform="translate(128 24) rotate(9 0 272) translate(0 272) scale(0.96) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
-<rect transform="translate(128 24) rotate(9 0 272) translate(0 272) scale(0.96) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
-<g transform="translate(128 24) rotate(9 0 272) translate(0 272) scale(0.96) translate(0 -272) rotate(18 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><path d="M-21 -2 L-8 -2 M8 -2 L21 -2" stroke="#ffffff" stroke-width="4" fill="none"/><path d="M-7 18 L7 18" stroke="#ffffff" stroke-width="4" fill="none"/></g>
+<g fill="none" stroke="#3c4129" stroke-linecap="round" stroke-linejoin="round">
+<path transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/>
+<rect transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#3c4129" stroke="none"/>
+<g transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(0 0 138) translate(0 96)"><circle r="40" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/><path d="M-21 -2 L-8 -2 M8 -2 L21 -2" stroke="#f2f1ea" stroke-width="4" fill="none"/><path d="M-7 18 L7 18" stroke="#f2f1ea" stroke-width="4" fill="none"/></g>
+<path transform="translate(128 24) rotate(9 0 272) translate(0 272) scale(0.96) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/>
+<rect transform="translate(128 24) rotate(9 0 272) translate(0 272) scale(0.96) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#3c4129" stroke="none"/>
+<g transform="translate(128 24) rotate(9 0 272) translate(0 272) scale(0.96) translate(0 -272) rotate(18 0 138) translate(0 96)"><circle r="40" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/><path d="M-21 -2 L-8 -2 M8 -2 L21 -2" stroke="#f2f1ea" stroke-width="4" fill="none"/><path d="M-7 18 L7 18" stroke="#f2f1ea" stroke-width="4" fill="none"/></g>
 
 
 </g>

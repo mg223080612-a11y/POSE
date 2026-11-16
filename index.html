@@ -3,9 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f6f2ec">
-  <title>다음포즈</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232b2824'/%3E%3Ccircle cx='24' cy='22' r='7' fill='%23fff'/%3E%3Ccircle cx='40' cy='22' r='7' fill='%23fff'/%3E%3Crect x='17' y='32' width='14' height='22' rx='7' fill='%23fff'/%3E%3Crect x='33' y='32' width='14' height='22' rx='7' fill='%23fff'/%3E%3Ccircle cx='50' cy='12' r='5' fill='%23ff5a5f'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#f2f1ea">
+  <title>MOMENT</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23545a3c'/%3E%3Crect x='16' y='14' width='32' height='36' rx='3' fill='none' stroke='%23f2f1ea' stroke-width='4'/%3E%3Cline x1='16' y1='32' x2='48' y2='32' stroke='%23f2f1ea' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,17 +20,21 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg>
       </button>
       <div class="start-inner">
-        <p class="brand-mark" aria-hidden="true"><span></span><span></span></p>
-        <h1 id="start-title">다음포즈</h1>
-        <p class="lead">컷마다 새 포즈를 알려 줄게요.<br>따라 하기만 하면 사진이 나와요.</p>
-        <h2 class="ask">몇 명이서 찍어요?</h2>
-        <div class="people-grid">
-          <button class="people-btn" data-people="2"><b>2</b>인</button>
-          <button class="people-btn" data-people="3"><b>3</b>인</button>
-          <button class="people-btn" data-people="4"><b>4</b>인 이상</button>
+        <header class="brand">
+          <p class="eyebrow">Self Photo Booth</p>
+          <h1 id="start-title" class="wordmark">MOMENT</h1>
+          <p class="lead">컷마다 새 포즈를 알려 드려요.<br>따라 하기만 하면 사진이 나와요.</p>
+        </header>
+        <div class="people">
+          <h2 class="ask">몇 명이서 찍나요?</h2>
+          <div class="people-grid">
+            <button class="people-btn" data-people="2"><span class="num">2</span><span class="lbl">2인</span></button>
+            <button class="people-btn" data-people="3"><span class="num">3</span><span class="lbl">3인</span></button>
+            <button class="people-btn" data-people="4"><span class="num">4<sup>+</sup></span><span class="lbl">4인 이상</span></button>
+          </div>
+          <p class="hint">카메라를 확인하고 [촬영 시작]을 누르면 카운트다운이 시작돼요</p>
+          <p class="guide-off-badge" id="guide-off-badge" hidden>포즈 가이드 꺼짐 · 비교 테스트 모드</p>
         </div>
-        <p class="hint">카메라를 확인하고 [촬영 시작]을 누르면 카운트다운이 시작돼요</p>
-        <p class="guide-off-badge" id="guide-off-badge" hidden>포즈 가이드 꺼짐 · 비교 테스트 모드</p>
       </div>
     </section>
 
@@ -64,6 +72,7 @@
     <!-- ③ 결과 -->
     <section class="screen screen-result" id="screen-result">
       <div class="result-inner">
+        <p class="eyebrow">MOMENT</p>
         <h2>오늘의 네컷</h2>
         <div class="sheet-frame"><img id="sheet-img" alt="합성된 4컷 사진"></div>
         <p class="meta">4×6 · 스트립 2줄 · 잘라서 나눠 가져요</p>

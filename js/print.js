@@ -8,7 +8,7 @@ export function printSheet(url, copies = 1) {
   for (let i = 0; i < copies; i++) {
     const img = new Image();
     img.src = url;
-    img.alt = '다음포즈 4컷 사진';
+    img.alt = 'MOMENT 4컷 사진';
     area.appendChild(img);
     loads.push(img.decode().catch(() => {}));
   }

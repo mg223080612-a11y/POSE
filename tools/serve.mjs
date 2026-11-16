@@ -28,7 +28,7 @@ createServer(async (req, res) => {
     res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('없는 파일이에요');
   }
 }).listen(PORT, () => {
-  console.log(`다음포즈 로컬 서버: http://localhost:${PORT}`);
+  console.log(`MOMENT 로컬 서버: http://localhost:${PORT}`);
   for (const list of Object.values(networkInterfaces())) {
     for (const a of list ?? []) if (a.family === 'IPv4' && !a.internal) console.log(`  같은 와이파이: http://${a.address}:${PORT} (카메라는 HTTPS 필요)`);
   }

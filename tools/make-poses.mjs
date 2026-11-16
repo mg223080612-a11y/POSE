@@ -7,9 +7,9 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const INK = '#47433e';
-const ACCENT = '#ff5a5f';
-const BG = '#ffffff';
+const INK = '#3c4129';
+const ACCENT = '#c0674a';
+const BG = '#f2f1ea';
 const H = 272; // 아래는 잘린 상반신
 
 // ---- 몸 (사람 하나, 가운데 x=0) ----

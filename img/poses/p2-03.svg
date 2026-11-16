@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 272" role="img" aria-label="볼 콕 찌르기">
-<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
-<path transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
-<rect transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
-<g transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(4 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><path d="M8 1 Q14 -7 20 1" stroke="#ffffff" stroke-width="4" fill="none"/><path d="M-10 15 Q0 24 10 15" stroke="#ffffff" stroke-width="4" fill="none"/><circle cx="-25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/><circle cx="25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/></g>
-<path d="M151 182 L202.7 166.3 L180.7 117" stroke="#ffffff" stroke-width="34"/>
-<path d="M180.7 117 L212.7 117" stroke="#ffffff" stroke-width="14"/>
-<circle cx="180.7" cy="117" r="20" fill="#ffffff" stroke="none"/>
+<g fill="none" stroke="#3c4129" stroke-linecap="round" stroke-linejoin="round">
+<path transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/>
+<rect transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#3c4129" stroke="none"/>
+<g transform="translate(105 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(4 0 138) translate(0 96)"><circle r="40" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#f2f1ea"/><path d="M8 1 Q14 -7 20 1" stroke="#f2f1ea" stroke-width="4" fill="none"/><path d="M-10 15 Q0 24 10 15" stroke="#f2f1ea" stroke-width="4" fill="none"/><circle cx="-25" cy="13" r="6" fill="#c0674a" opacity=".45"/><circle cx="25" cy="13" r="6" fill="#c0674a" opacity=".45"/></g>
+<path d="M151 182 L202.7 166.3 L180.7 117" stroke="#f2f1ea" stroke-width="34"/>
+<path d="M180.7 117 L212.7 117" stroke="#f2f1ea" stroke-width="14"/>
+<circle cx="180.7" cy="117" r="20" fill="#f2f1ea" stroke="none"/>
 <path d="M151 182 L202.7 166.3 L180.7 117" stroke-width="26"/>
 <path d="M180.7 117 L212.7 117" stroke-width="8"/>
-<circle cx="180.7" cy="117" r="16" fill="#47433e" stroke="none"/>
-<path transform="translate(218 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
-<rect transform="translate(218 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
-<g transform="translate(218 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(-8 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><circle cx="14" cy="-2" r="4.2" fill="#ffffff"/><circle cx="0" cy="19" r="4.5" fill="#ffffff"/><circle cx="-25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/><circle cx="25" cy="13" r="6" fill="#ff5a5f" opacity=".45"/></g>
+<circle cx="180.7" cy="117" r="16" fill="#3c4129" stroke="none"/>
+<path transform="translate(218 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/>
+<rect transform="translate(218 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#3c4129" stroke="none"/>
+<g transform="translate(218 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(-8 0 138) translate(0 96)"><circle r="40" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#f2f1ea"/><circle cx="14" cy="-2" r="4.2" fill="#f2f1ea"/><circle cx="0" cy="19" r="4.5" fill="#f2f1ea"/><circle cx="-25" cy="13" r="6" fill="#c0674a" opacity=".45"/><circle cx="25" cy="13" r="6" fill="#c0674a" opacity=".45"/></g>
 
-<path d="M157.4 106.5 L145.5 105.5" stroke="#ff5a5f" stroke-width="5"/><path d="M161.1 97.6 L151.9 89.9" stroke="#ff5a5f" stroke-width="5"/><path d="M169.2 92.5 L166.1 80.9" stroke="#ff5a5f" stroke-width="5"/>
+<path d="M157.4 106.5 L145.5 105.5" stroke="#c0674a" stroke-width="5"/><path d="M161.1 97.6 L151.9 89.9" stroke="#c0674a" stroke-width="5"/><path d="M169.2 92.5 L166.1 80.9" stroke="#c0674a" stroke-width="5"/>
 </g>
 </svg>

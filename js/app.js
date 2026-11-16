@@ -1,7 +1,7 @@
 // app.js — 화면 전환 · 인원 선택 · 세션 진행 · 설정 · 화면 꺼짐 방지
 import { pickSession, recentIds, saveRecent, clearRecent } from './picker.js';
 import { startCamera, hasCamera, countdown, captureFrame } from './camera.js';
-import { composeSheet, sheetToBlobUrl } from './compose.js';
+import { composeSheet, sheetToBlobUrl, loadSheetFonts } from './compose.js';
 import { printSheet, clearPrintArea } from './print.js';
 import { loadRetouch, retouchFrame } from './retouch.js';
 
@@ -164,6 +164,7 @@ async function runSession(people) {
   }
 
   if (settings.guide) saveRecent(picks.map((p) => p.id));
+  await loadSheetFonts();
   const sheet = composeSheet(session.frames);
   session.sheetUrl = await sheetToBlobUrl(sheet);
   $('sheet-img').src = session.sheetUrl;

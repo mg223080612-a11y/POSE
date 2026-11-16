@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 272" role="img" aria-label="볼 꼬집기">
-<g fill="none" stroke="#47433e" stroke-linecap="round" stroke-linejoin="round">
-<path transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
-<rect transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
-<g transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(6 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><path d="M8 1 Q14 -7 20 1" stroke="#ffffff" stroke-width="4" fill="none"/><path d="M-11 14 Q0 20 11 14" stroke="#ffffff" stroke-width="4" fill="none"/><ellipse cx="3" cy="21" rx="5" ry="6" fill="#ff5a5f"/></g>
-<path d="M150 182 L201.9 167.1 L174.4 120.6" stroke="#ffffff" stroke-width="34"/>
-<ellipse cx="174.4" cy="120.6" rx="16" ry="22" transform="rotate(-100 174.4 120.6)" fill="#ffffff" stroke="none"/>
+<g fill="none" stroke="#3c4129" stroke-linecap="round" stroke-linejoin="round">
+<path transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/>
+<rect transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#3c4129" stroke="none"/>
+<g transform="translate(104 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(6 0 138) translate(0 96)"><circle r="40" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#f2f1ea"/><path d="M8 1 Q14 -7 20 1" stroke="#f2f1ea" stroke-width="4" fill="none"/><path d="M-11 14 Q0 20 11 14" stroke="#f2f1ea" stroke-width="4" fill="none"/><ellipse cx="3" cy="21" rx="5" ry="6" fill="#c0674a"/></g>
+<path d="M150 182 L201.9 167.1 L174.4 120.6" stroke="#f2f1ea" stroke-width="34"/>
+<ellipse cx="174.4" cy="120.6" rx="16" ry="22" transform="rotate(-100 174.4 120.6)" fill="#f2f1ea" stroke="none"/>
 <path d="M150 182 L201.9 167.1 L174.4 120.6" stroke-width="26"/>
-<ellipse cx="174.4" cy="120.6" rx="12" ry="18" transform="rotate(-100 174.4 120.6)" fill="#47433e" stroke="none"/>
-<path transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#47433e" stroke="#ffffff" stroke-width="5"/>
-<rect transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#47433e" stroke="none"/>
-<g transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(-10 0 138) translate(0 96)"><circle r="40" fill="#47433e" stroke="#ffffff" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#ffffff"/><circle cx="14" cy="-2" r="4.2" fill="#ffffff"/><ellipse cx="0" cy="20" rx="7" ry="9" fill="#ffffff"/></g>
+<ellipse cx="174.4" cy="120.6" rx="12" ry="18" transform="rotate(-100 174.4 120.6)" fill="#3c4129" stroke="none"/>
+<path transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" d="M-72 420 L-72 214 Q-70 160 -26 152 L26 152 Q70 160 72 214 L72 420 Z" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/>
+<rect transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272)" x="-15" y="118" width="30" height="44" rx="8" fill="#3c4129" stroke="none"/>
+<g transform="translate(214 0) rotate(0 0 272) translate(0 272) scale(1) translate(0 -272) rotate(-10 0 138) translate(0 96)"><circle r="40" fill="#3c4129" stroke="#f2f1ea" stroke-width="5"/><circle cx="-14" cy="-2" r="4.2" fill="#f2f1ea"/><circle cx="14" cy="-2" r="4.2" fill="#f2f1ea"/><ellipse cx="0" cy="20" rx="7" ry="9" fill="#f2f1ea"/></g>
 
-<path d="M251 71.1 L256 60.2" stroke="#ff5a5f" stroke-width="5"/><path d="M257.2 76.8 L267.6 70.8" stroke="#ff5a5f" stroke-width="5"/><path d="M259 85 L271 86" stroke="#ff5a5f" stroke-width="5"/>
+<path d="M251 71.1 L256 60.2" stroke="#c0674a" stroke-width="5"/><path d="M257.2 76.8 L267.6 70.8" stroke="#c0674a" stroke-width="5"/><path d="M259 85 L271 86" stroke="#c0674a" stroke-width="5"/>
 </g>
 </svg>
