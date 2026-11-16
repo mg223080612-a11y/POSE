@@ -1,6 +1,6 @@
 # MOMENT
 
-컷마다 아직 쓰지 않은 포즈를 보여 주고, 4컷을 4×6 한 장으로 합성해 포토 프린터로 바로 인화하는 휴대폰 웹 포토부스. (기획서 프로젝트명: 다음포즈)
+컷마다 아직 쓰지 않은 포즈를 보여 주고, 4컷을 4×6 한 장으로 합성해 포토 프린터로 바로 인화하는 휴대폰 웹 포토부스.
 
 배포 주소: https://pose.gvcs.kr
 
@@ -10,7 +10,7 @@
 node tools/serve.mjs
 ```
 
-브라우저에서 http://localhost:5173 을 연다. (`localhost`는 HTTPS가 아니어도 카메라가 켜진다. 휴대폰에서 쓸 때는 GitHub Pages의 HTTPS 주소로 연다.)
+브라우저에서 http://localhost:5173 을 연다. (`localhost`는 HTTPS가 아니어도 카메라가 켜진다. 휴대폰에서 쓸 때는 HTTPS 주소 https://pose.gvcs.kr 로 연다.)
 
 ## 파일
 
