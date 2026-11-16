@@ -3,6 +3,7 @@ import { pickSession, recentIds, saveRecent, clearRecent } from './picker.js';
 import { startCamera, hasCamera, countdown, captureFrame } from './camera.js';
 import { composeSheet, sheetToBlobUrl } from './compose.js';
 import { printSheet, clearPrintArea } from './print.js';
+import { loadRetouch, retouchFrame } from './retouch.js';
 
 const CUTS = 4;
 const PRINT_SECONDS = 41; // SELPHY CP1500 엽서 1장
@@ -105,6 +106,7 @@ function waitForStart(signal) {
     const onClick = () => {
       cleanup();
       requestWake();
+      loadRetouch().catch(() => {}); // 찍는 동안 AI 보정 모델을 미리 받아 둔다
       resolve();
     };
     const onAbort = () => {
@@ -166,14 +168,64 @@ async function runSession(people) {
   session.sheetUrl = await sheetToBlobUrl(sheet);
   $('sheet-img').src = session.sheetUrl;
   $('print-more').hidden = people < 3;
+  setAiUi('off');
   show('result');
+}
+
+// ---------- AI 보정 ----------
+const AI_HINT = '피부를 매끈하게, 얼굴형을 갸름하게 · 사진은 휴대폰 안에서만 처리돼요';
+function setAiUi(state, msg) {
+  const btn = $('ai-btn');
+  btn.classList.toggle('busy', state === 'busy');
+  btn.setAttribute('aria-pressed', String(state === 'on'));
+  $('ai-label').textContent = state === 'busy' ? 'AI 보정 중…' : state === 'on' ? 'AI 보정 켜짐' : 'AI 보정';
+  $('ai-status').textContent = msg ?? (state === 'on' ? '한 번 더 누르면 원본으로 돌아가요' : AI_HINT);
+}
+function currentSheetUrl() {
+  return session?.aiOn && session.aiUrl ? session.aiUrl : session?.sheetUrl;
+}
+async function toggleAi() {
+  const s = session;
+  if (!s?.sheetUrl) return;
+  if (s.aiOn) {
+    s.aiOn = false;
+    $('sheet-img').src = s.sheetUrl;
+    setAiUi('off');
+    return;
+  }
+  if (!s.aiUrl) {
+    setAiUi('busy', '얼굴을 찾고 있어요 · 처음 한 번은 10초쯤 걸려요');
+    try {
+      let found = 0;
+      const fixed = [];
+      for (const f of s.frames) {
+        const r = await retouchFrame(f);
+        found += r.faces;
+        fixed.push(r.canvas);
+        await new Promise((res) => setTimeout(res)); // 화면이 멈추지 않게 한 컷씩 쉬어 간다
+      }
+      if (session !== s) return; // 그사이 처음으로 돌아갔으면 버린다
+      if (!found) {
+        setAiUi('off', '사진에서 얼굴을 찾지 못했어요');
+        return;
+      }
+      s.aiUrl = await sheetToBlobUrl(composeSheet(fixed));
+    } catch (e) {
+      console.error(e);
+      if (session === s) setAiUi('off', 'AI 보정을 불러오지 못했어요 · 인터넷 연결을 확인해 주세요');
+      return;
+    }
+  }
+  s.aiOn = true;
+  $('sheet-img').src = s.aiUrl;
+  setAiUi('on');
 }
 
 // ---------- ③④ 인쇄 ----------
 let printTimer = null;
 async function doPrint() {
   if (!session?.sheetUrl) return;
-  await printSheet(session.sheetUrl);
+  await printSheet(currentSheetUrl());
   show('printing');
   startPrintProgress();
 }
@@ -197,7 +249,9 @@ function goHome() {
   // 사진은 여기서 지운다
   session?.abort.abort();
   if (session?.sheetUrl) URL.revokeObjectURL(session.sheetUrl);
+  if (session?.aiUrl) URL.revokeObjectURL(session.aiUrl);
   session = null;
+  setAiUi('off');
   clearInterval(printTimer);
   clearPrintArea();
   $('sheet-img').removeAttribute('src');
@@ -229,6 +283,7 @@ document.querySelectorAll('.people-btn').forEach((b) =>
   })
 );
 $('cancel-shoot').addEventListener('click', goHome);
+$('ai-btn').addEventListener('click', toggleAi);
 $('retake').addEventListener('click', goHome);
 $('print-btn').addEventListener('click', doPrint);
 $('print-more').addEventListener('click', doPrint);
