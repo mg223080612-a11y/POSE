@@ -78,7 +78,6 @@ function renderPose(i) {
     card.classList.add('free');
     $('pose-name').textContent = '자유 포즈';
     $('pose-tip').textContent = '원하는 포즈로 찍어요';
-    $('pose-next').textContent = '';
     return;
   }
   card.classList.remove('free');
@@ -87,8 +86,6 @@ function renderPose(i) {
   $('pose-img').alt = `${p.name} 포즈 그림`;
   $('pose-name').textContent = p.name;
   $('pose-tip').textContent = p.tip;
-  const next = session.picks[i + 1];
-  $('pose-next').textContent = next ? `다음: ${next.name}` : '마지막 컷이에요';
 }
 
 function setCount(text, { small = false } = {}) {

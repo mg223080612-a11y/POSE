@@ -126,7 +126,6 @@ h1 { font-size: clamp(40px, 11vw, 56px); font-weight: 900; letter-spacing: -0.04
 .pose-img-wrap img { max-width: 100%; max-height: 100%; width: auto; height: 100%; object-fit: contain; }
 .pose-name { font-size: clamp(28px, 8.5vw, 44px); font-weight: 900; letter-spacing: -0.03em; }
 .pose-tip { font-size: clamp(15px, 4.2vw, 19px); color: var(--ink-2); line-height: 1.4; }
-.pose-next { font-size: 14px; color: var(--ink-3); }
 .pose-card.free .pose-img-wrap { display: none; }
 .pose-card.free .pose-name { font-size: clamp(32px, 10vw, 52px); }
 
