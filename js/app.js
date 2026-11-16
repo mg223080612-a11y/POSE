@@ -97,6 +97,30 @@ function setCount(text, { small = false } = {}) {
   if (text !== '') el.classList.add('tick');
 }
 
+function waitForStart(signal) {
+  const btn = $('start-shoot');
+  btn.hidden = false;
+  btn.focus({ preventScroll: true });
+  return new Promise((resolve, reject) => {
+    const onClick = () => {
+      cleanup();
+      requestWake();
+      resolve();
+    };
+    const onAbort = () => {
+      cleanup();
+      reject(new DOMException('취소', 'AbortError'));
+    };
+    const cleanup = () => {
+      btn.hidden = true;
+      btn.removeEventListener('click', onClick);
+      signal.removeEventListener('abort', onAbort);
+    };
+    btn.addEventListener('click', onClick);
+    signal.addEventListener('abort', onAbort);
+  });
+}
+
 async function runSession(people) {
   const abort = new AbortController();
   const picks = settings.guide
@@ -114,8 +138,8 @@ async function runSession(people) {
   $('cam-empty').hidden = camOk;
 
   try {
-    setCount('준비!', { small: true });
-    await sleep(1500, signal);
+    // 카메라와 첫 포즈를 확인하고 [촬영 시작]을 누르면 카운트다운이 시작된다
+    await waitForStart(signal);
     for (let i = 0; i < CUTS; i++) {
       if (i > 0) renderPose(i);
       renderDots(i, session.frames);

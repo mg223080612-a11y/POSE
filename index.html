@@ -25,7 +25,7 @@
           <button class="people-btn" data-people="3"><b>3</b>인</button>
           <button class="people-btn" data-people="4"><b>4</b>인 이상</button>
         </div>
-        <p class="hint">누르면 바로 촬영이 시작돼요</p>
+        <p class="hint">카메라를 확인하고 [촬영 시작]을 누르면 카운트다운이 시작돼요</p>
         <p class="guide-off-badge" id="guide-off-badge" hidden>포즈 가이드 꺼짐 · 비교 테스트 모드</p>
       </div>
     </section>
@@ -47,6 +47,9 @@
           <div class="count" id="count" aria-hidden="true"></div>
           <div class="flash" id="flash"></div>
           <img class="snap-preview" id="snap-preview" alt="">
+          <button class="start-shoot" id="start-shoot" hidden>
+            <span class="start-shoot-dot" aria-hidden="true"></span>촬영 시작
+          </button>
         </div>
         <div class="pose-card" id="pose-card">
           <div class="pose-img-wrap"><img id="pose-img" alt=""></div>
